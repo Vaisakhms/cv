@@ -298,7 +298,10 @@ table a, #comments a{background-color:inherit;}
 --------------------------------------------------------------------------------------------------------------- */
 @media screen and (max-width:900px){
 	.hoc{max-width:90%;}
-
+	
+	*, *::before, *::after{transition:all .30s ease-in-out;}
+	#mainav form *{transition:none !important;}
+	
 	#header{padding:30px 0;}
 	#header #logo{margin-top:3px;}
 
@@ -324,7 +327,8 @@ table a, #comments a{background-color:inherit;}
 	.fl_left, .fl_right{display:block; float:none;}
 	.group .group > *:last-child, .clear .clear > *:last-child, .clear .group > *:last-child, .group .clear > *:last-child{margin-bottom:0;}/* Experimental - Needs more testing in different situations, stops double margin when stacking */
 	.one_half, .one_third, .two_third, .one_quarter, .two_quarter, .three_quarter{display:block; float:none; width:auto; margin:0 0 50px 0; padding:0;}
-
+	*, *::before, *::after{transition:all .30s ease-in-out;}
+	#mainav form *{transition:none !important;}
 	#header{text-align:center;}
 	#header #logo{margin:0 0 15px 0;}
 
@@ -340,7 +344,8 @@ table a, #comments a{background-color:inherit;}
 @media screen and (max-width:650px){
 	.scrollable{display:block; width:100%; margin:0 0 30px 0; padding:0 0 15px 0; overflow:auto; overflow-x:scroll;}
 	.scrollable table{margin:0; padding:0; white-space:nowrap;}
-
+	*, *::before, *::after{transition:all .30s ease-in-out;}
+	#mainav form *{transition:none !important;}
 	.inline li{display:block; margin-bottom:10px;}
 	.pushright li{margin-right:0;}
 
